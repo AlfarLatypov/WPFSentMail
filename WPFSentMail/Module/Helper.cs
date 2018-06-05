@@ -27,7 +27,7 @@ namespace WPFSentMail.Module
             smtp.EnableSsl = true; //
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
             smtp.UseDefaultCredentials = false; // ispolzovat po umol4aniu avtorizachiu?// govorim net
-            smtp.Credentials = new NetworkCredential("alfar.latypov@gmail.com", "Zarina2020");
+            smtp.Credentials = new NetworkCredential("alfar.latypov@gmail.com", "********");
 
             try
             {
